@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+.header {
+	text-align: center;
+	background-color: black;
+}
+
+.header-text {
+	font-family: Impact, fantasy;
+	font-size: 20px;
+	color: white;
+	text-decoration: underline;
+}
+
+.navbar {
+	background-color: #ffff8a;
+	border: 2px solid #828282;
+	color: #828282;
+}
+
+.imperio {
+	padding-top: 8%;
+}
+
+.navbar-text {
+	padding: 0 6%;
+	font-family: coureir;
+	text-decoration: none;
+}
+
+.footer {
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+video {
+	position: fixed;
+	top: 7%;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	z-index: -1;
+}
+
+strong.palabra-animada {
+	text-align: center;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: modern love;
+	font-size: 50px;
+	color: #ffff31;
+}
+
+.palabra-animada {
+	opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+	animation-name: animar-palabra;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 1s; /* retardo de 1 segundo */
+	animation-fill-mode: forwards;
+}
+
+p.palabra-animada {
+	text-align: center;
+	position: absolute;
+	animation-delay: 2s;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: verdana;
+	font-size: 20px;
+	color: black;
+}
+
+.articulo {
+	margin: 2% 0 2% 0;
+	text-align: center;
+}
+
+.articulo-title {
+	font-family: Futura;
+	font-size: x-large;
+}
+
+.articulo-text {
+	font-family: Century; /*, Futura, Helvetica, Century y Times*/
+	text-align: justify;
+}
+
+.row {
+	padding: 1% 1% 1% 1%;
+	width: 100%;
+}
+
+.opiniones {
+	text-align: justify;
+	background-color: green;
+}
+
+.op-name {
+	margin: 6% 10% 0 10%;
+	font-family: fantasy;
+	font-size: medium;
+}
+
+.yourop {
+	color: white;
+	margin-top: 80%; 
+	margin-bottom: 10%;
+	text-align: center;
+	font-family: fantasy;
+	font-size: medium;
+}
+
+.op {
+	margin: 0;
+	padding: 0 5% 0 5%;
+	color: white;
+	font-family: cursive;
+	font-size: x-small;
+}
+
+@keyframes animar-palabra {
+	from { 
+		opacity:0;
+	}
+	to {
+		opacity: 1;
+	}
+}
