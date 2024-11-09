@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ángela Alonso</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" type="image/png" href="/img/iconoOctopus.webp">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img class="s50x50" src="/img/iconoOctopus.png" alt="icon-octopus"></a>
+            <div class="cont-nav-item menu nav-pills">
+                <a class="nav-item" href='#aboutme'>Sobre mí</a>
+                <a class="nav-item" href='#'>Blog</a>
+                <a class="nav-item" href='#projects'>Proyectos</a>
+                <a class="nav-item" href='../Curriculum_AngelaAlonso.pdf' target="_blank">Contratame</a>
+            </div>
+            <div class="cont-nav-item language">
+                <label id="idioma">ES</label>
+                <div class="dropdown">
+                    <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <img class="s30x30" src="/img/spain.png" alt="spanish-flag">
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item active" href="/es/docs/HTML/index.html"><img class="s30x30"
+                                    src="/img/spain.png" alt="spanish-flag"> Español</a></li>
+                        <li><a class="dropdown-item" href="/en/docs/HTML/index.html"><img class="s30x30"
+                                    src="/img/united-kingdom.png" alt="united-kingdom-flag"> Inglés</a></li>
+                        <li><a class="dropdown-item" href="/cat/docs/HTML/index.html"><img class="s30x30"
+                                    src="/img/catalan.png" alt="catalan-flag"> Catalán</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="section" id="aboutme" data-title="aboutme">
+        <div class="box">
+            <div class="box-2">
+                <img src="/img/me.jpg" style="width: 100%; border-radius: 50%;">
+            </div>
+        </div>
+        <div class="box gray-box">
+            <div class="hi">
+                <span>¡Hola! Soy Angela Alonso Pérez</span>
+                <p>🎓 Recién graduada en Ingeniería Telemática
+                    por la Universidad de Valencia, donde tuve el honor de recibir el premio
+                    al mejor expediente. Actualmente estoy cursando un máster en Ingeniería del Software para seguir
+                    creciendo y aportando ideas innovadoras al mundo del desarrollo web.
+                    <br> 💻 Aunque mi experiencia profesional es
+                    limitada, me sobra ilusión y motivación por aprender.<br>💡Me apasiona investigar y desarrollar
+                    proyectos,
+                    especialmente aquellos relacionados con la música, una de mis grandes pasiones. Me encantan
+                    los
+                    colores vivos, que reflejan mi energía positiva y alegría, características que intento plasmar en
+                    todo lo
+                    que hago.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="section section-background" id="projects" data-title="projects">
+        <ul class="box-list">
+            <li class="list-project">
+                <table>
+                    <tr>
+                        <td><a class="btn" href="/projects/spanish_culture/index.html" target="_blank"><img
+                                    class="s100x100 rounded border" src="/img/spanish-culture.png"></a></td>
+                        <td class="px-2">
+                            <p><strong>Cultura Española: </strong>Desarrollo de una página web estática que presenta
+                                información sobre la cultura española. Es mi primer proyecto web,
+                                en el que recopilé datos interesantes sobre tradiciones, arte y gastronomía de España.
+                            </p>
+                            <hr class="border border-1 border-dark-subtle">
+                            <div class="skills">
+                                <div>HTML</div>
+                                <div>CSS</div>
+                            </div>
+                        </td>
+                        <td class="px-2"></td>
+                    </tr>
+                </table>
+            </li>
+            <li class="list-project">
+                <table>
+                    <tr>
+                        <td><a class="btn" href="/projects/guessTheNumber/index.html" target="_blank"><img
+                                    class="s100x100 rounded border" src="/img/guess-the-number.png"></a></td>
+                        <td class="px-2">
+                            <p><strong>Adivina el número: </strong>Desarrollo de un juego en el que se genera un
+                                número
+                                aleatorio del 1 al 100, y el jugador debe adivinarlo. Los datos de los jugadores y los
+                                números se almacenan utilizando localStorage.
+                            </p>
+                            <hr class="border border-1 border-dark-subtle">
+                            <div class="skills">
+                                <div>HTML</div>
+                                <div>CSS</div>
+                                <div>JavaScript</div>
+                            </div>
+                        </td>
+                        <td class="px-2"></td>
+                    </tr>
+                </table>
+            </li>
+            <li class="list-project">
+                <table>
+                    <tr>
+                        <td><a class="btn" href="/projects/guessTheNumber/index.html" target="_blank"><img
+                                    class="s100x100 rounded border" src="/img/guess-the-number.png"></a></td>
+                        <td class="px-2">
+                            <p><strong>Adivina el número (V2): </strong>En esta segunda versión del juego, se desarrolla
+                                una web dinámica utilizando Java. Se elimina el uso de localStorage, mejorando la
+                                funcionalidad mediante tecnologías del lado del servidor.
+                            </p>
+                            <hr class="border border-1 border-dark-subtle">
+                            <div class="skills">
+                                <div>HTML</div>
+                                <div>CSS</div>
+                                <div>Java</div>
+                            </div>
+                        </td>
+                        <td class="px-2"></td>
+                    </tr>
+                </table>
+            </li>
+            <li class="list-project">
+                <table>
+                    <tr>
+                        <td><a class="btn" href="https://github.com/apean8/digit-classifier" target="_blank"><img
+                                    class="s100x100 rounded border" src="/img/digit-classifier.png"></a></td>
+                        <td class="px-2">
+                            <p><strong>Digit classifier: </strong>Desarrollo de un clasificador para distinguir el
+                                dígito 1 del resto de los dígitos, utilizando algoritmos como k-NN, redes neuronales y
+                                Naive Bayes. Evaluación de los modelos en términos de precisión y eficiencia.
+                            </p>
+                            <hr class="border border-1 border-dark-subtle">
+                            <div class="skills">
+                                <div>Python</div>
+                                <div>Machine Learning</div>
+                            </div>
+                        </td>
+                        <td class="px-2"></td>
+                    </tr>
+                </table>
+            </li>
+            <li class="list-project">
+                <table>
+                    <tr>
+                        <td><a class="btn" href="/projects/libreriaAlpa/index.html" target="_blank"><img
+                                    class="s100x100 rounded border" src="/img/joomla.png"></a></td>
+                        <td class="px-2">
+                            <p><strong>Librería Alpa: </strong>Desarrollo de una web para una librería online utilizando
+                                Joomla. Uso de diferentes plugins para crear y gestionar la tienda online.
+                            </p>
+                            <hr class="border border-1 border-dark-subtle">
+                            <div class="skills">
+                                <div>Joomla</div>
+                                <div>Datos Enriquecidos</div>
+                            </div>
+                        </td>
+                        <td class="px-2"></td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
