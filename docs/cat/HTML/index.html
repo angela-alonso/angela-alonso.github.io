@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Ángela Alonso</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="icon" type="image/png" href="/img/iconoOctopus.webp">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" type="image/png" href="/assets/img/iconoOctopus.webp">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
@@ -15,11 +15,11 @@
 <body>
     <nav class="navbar bg-body-tertiary sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#" onclick="Cargar('./index.html')"><img class="s50x50" src="/img/iconoOctopus.png" alt="icon-octopus"></a>
+            <a class="navbar-brand" href="#" onclick="Cargar('./index.html')"><img class="s50x50" src="/assets/img/iconoOctopus.png" alt="icon-octopus"></a>
             <div class="cont-nav-item menu">
-                <a class="nav-item" href='#' onclick="Cargar('./html/empresa.html','cuerpo');">Sobre mi</a>
+                <a class="nav-item" href='#aboutme' onclick="Cargar('./html/empresa.html','cuerpo');">Sobre mi</a>
                 <a class="nav-item" href='#' onclick="Cargar('./html/contacto.html','cuerpo')">Bloc</a>
-                <a class="nav-item" href='/my/projects.html'>Projectes</a>
+                <a class="nav-item" href='#projects'>Projectes</a>
                 <a class="nav-item" href='../Curriculum_AngelaAlonso.pdf' target="_blank">Contracta'm</a>
             </div>
             <div class="cont-nav-item language">
@@ -27,15 +27,15 @@
                 <div class="dropdown">
                     <button class="btn btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
-                        <img class="s30x30" src="/img/catalan.png" alt="cataluña-flag">
+                        <img class="s30x30" src="/assets/img/catalan.png" alt="cataluña-flag">
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end">
-                        <li><a class="dropdown-item" href="/es/docs/HTML/index.html"><img class="s30x30"
-                                    src="/img/spain.png" alt="spanish-flag"> Espanyol</a></li>
-                        <li><a class="dropdown-item" href="/en/docs/HTML/index.html"><img class="s30x30"
-                                    src="/img/united-kingdom.png" alt="united-kingdom-flag"> Anglés</a></li>
-                        <li><a class="dropdown-item active" href="/cat/docs/HTML/index.html"><img class="s30x30"
-                                    src="/img/catalan.png" alt="catalan-flag"> Català</a></li>
+                        <li><a class="dropdown-item" href="/docs/es/HTML/index.html"><img class="s30x30"
+                                    src="/assets/img/spain.png" alt="spanish-flag"> Espanyol</a></li>
+                        <li><a class="dropdown-item" href="/docs/en/HTML/index.html"><img class="s30x30"
+                                    src="/assets/img/united-kingdom.png" alt="united-kingdom-flag"> Anglés</a></li>
+                        <li><a class="dropdown-item active" href="/docs/cat/HTML/index.html"><img class="s30x30"
+                                    src="/assets/img/catalan.png" alt="catalan-flag"> Català</a></li>
                     </ul>
                 </div>
             </div>
@@ -44,7 +44,7 @@
     <section class="section" id="aboutme" data-title="aboutme">
         <div class="box">
             <div class="box-2">
-                <img src="/img/me.jpg" style="width: 100%; border-radius: 50%;">
+                <img src="/assets/img/me.jpg" style="width: 100%; border-radius: 50%;">
             </div>
         </div>
         <div class="box gray-box">
@@ -68,7 +68,7 @@
                 <table>
                     <tr>
                         <td><a class="btn" href="/projects/spanish_culture/index.html" target="_blank"><img
-                                    class="s100x100 rounded border" src="/img/spanish-culture.png"></a></td>
+                                    class="s100x100 rounded border" src="/assets/img/spanish-culture.png"></a></td>
                         <td class="px-2">
                             <p><strong>Cultura Espanyola:</strong> Desenvolupament d'una pàgina web estàtica que
                                 presenta informació sobre la cultura espanyola. És el meu primer projecte web, on vaig
@@ -87,7 +87,7 @@
                 <table>
                     <tr>
                         <td><a class="btn" href="/projects/guessTheNumber/index.html" target="_blank"><img
-                                    class="s100x100 rounded border" src="/img/guess-the-number.png"></a></td>
+                                    class="s100x100 rounded border" src="/assets/img/guess-the-number.png"></a></td>
                         <td class="px-2">
                             <p><strong>Adivina el número:</strong> Desenvolupament d'un joc on es genera un número
                                 aleatori entre 1 i 100, i el jugador ha d'endevinar-lo. Els dades dels jugadors i els
@@ -107,7 +107,7 @@
                 <table>
                     <tr>
                         <td><a class="btn" href="/projects/guessTheNumber/index.html" target="_blank"><img
-                                    class="s100x100 rounded border" src="/img/guess-the-number.png"></a></td>
+                                    class="s100x100 rounded border" src="/assets/img/guess-the-number.png"></a></td>
                         <td class="px-2">
                             <p><strong>Adivina el número (V2):</strong> En aquesta segona versió del joc, es desenvolupa
                                 una pàgina web dinàmica utilitzant Java. S'elimina l'ús de localStorage, millorant la
@@ -127,7 +127,7 @@
                 <table>
                     <tr>
                         <td><a class="btn" href="https://github.com/apean8/digit-classifier" target="_blank"><img
-                                    class="s100x100 rounded border" src="/img/digit-classifier.png"></a></td>
+                                    class="s100x100 rounded border" src="/assets/img/digit-classifier.png"></a></td>
                         <td class="px-2">
                             <p><strong>Digit Classifier:</strong> Desenvolupament d'un classificador per
                                 distingir el dígit 1 de la resta de dígits, utilitzant algoritmes com k-NN, xarxes
@@ -146,7 +146,7 @@
                 <table>
                     <tr>
                         <td><a class="btn" href="/projects/libreriaAlpa/index.html" target="_blank"><img
-                                    class="s100x100 rounded border" src="/img/joomla.png"></a></td>
+                                    class="s100x100 rounded border" src="/assets/img/joomla.png"></a></td>
                         <td class="px-2">
                             <p><strong>Libreria Alpa:</strong> Desenvolupament d'una pàgina web per a una llibreria en
                                 línia utilitzant Joomla. Ús de diferents plugins per crear i gestionar la botiga en
